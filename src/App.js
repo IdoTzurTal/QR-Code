@@ -1,5 +1,5 @@
 import './App.css';
-import Exercise from './Exercise';
+// import Exercise from './Exercise';
 import QR from './QR';
 
 function App() {
