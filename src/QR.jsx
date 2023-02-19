@@ -39,7 +39,7 @@ const Card = styled.div`
     background-color: var(--White);
     border-radius: 5%;
     padding: 1rem;
-    width: 20vw;
+    width: 300px;
     box-shadow: 5px 5px 5px #9f9f9f;
 
     @media screen and (max-width: 412px) {
@@ -66,17 +66,13 @@ const Lower = styled.div`
         display: flex;
         align-items: center;
         font-weight: 700;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         padding: 1rem;
     }
 
     p {
         font-weight: 400;
         color: var(--Grayish-blue);
-        width: 17vw;
-        @media screen and (max-width: 412px) {
-            width: 70vw
-        }
     }
 `
 
