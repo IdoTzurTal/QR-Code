@@ -1,8 +1,7 @@
-import React, { useState } from "react";
 import styled from "styled-components";
 import code from "./Assets/Images/image-qr-code.png"
-import Lottie from "lottie-react"
-import astro from "./Assets/Lotties/38047-splash-screen-of-programming-hero-app.json"
+// import Lottie from "lottie-react"
+// import astro from "./Assets/Lotties/38047-splash-screen-of-programming-hero-app.json"
 
 const QR = () => {
     return (
