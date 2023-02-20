@@ -9,7 +9,7 @@ const QR = () => {
             <Wrapper>
                 <Card>
                     <Upper>
-                        <Image src={code} alt="" />
+                        <Image src={code} alt="QR code to frontendmentor.io" />
                     </Upper>
                     <Lower>
                         <h2>Improve your front-end <br /> skills by building projects</h2>
@@ -28,7 +28,7 @@ const Wrapper = styled.div`
     align-items: center;
     background-color: var(--Light-gray);
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 `
 
 const Card = styled.div`
@@ -41,11 +41,6 @@ const Card = styled.div`
     padding: 1rem;
     width: 300px;
     box-shadow: 5px 5px 5px #9f9f9f;
-
-    @media screen and (max-width: 412px) {
-        padding: 4vw;
-        width: 77vw;
-    }
 `
 const Image = styled.img`
     border-radius: 5%;
